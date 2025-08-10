@@ -1,16 +1,14 @@
-
-
 .container {
   display:flex;
   flex-direction:column;
-  border-style:solid;
+  font-family:"Roboto";
 }
 
 .Picture{
 
   background-color:#1F2937;
   justify-content:space-between;
-  
+  flex:1; 
   padding:50px;
   margin:10px;
 }
@@ -50,3 +48,71 @@
 .image p{
 }
 
+.Information {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  flex:1; 
+}
+.illustrations ul{
+    display:flex;
+    border-style:solid;
+    flex-direction:row;
+    gap:15px;
+}
+.Quote {
+  background-color: #E5E7EB;
+  display:flex;
+  flex:1; 
+  justify-content:center;
+  flex-direction:column;
+  border-style:solid;
+}
+.Quote p{
+  padding:50px;
+  color:#1F2937;
+  font: 36px italic;
+  margin:50px 100px 50px 100px;
+}
+.Quote h1{
+  border-style:solid;
+  text-align:right;
+  padding:0px 30px 0px 30px;
+  margin: 0px 0px 100px 0px;
+}
+ 
+.Signup .BlueBox {
+  background-color:#3882F6; 
+  color: #F9FAF8;
+  padding:25px 50px;
+  margin:75px 100px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+}
+.Signup .Text h1{
+  font-size: 24px;
+  color:#F9FAF8;
+}
+.Signup .Text p{
+  font-size: 18px;
+  color:#E5E7EB;
+}
+.Signup .Button button{
+  color:#F9FAF8;
+  border-style:solid;
+  background-color:#3882F6; 
+  font-size: 24px;
+  border-color:#F9FAF8;
+  padding:5px 40px 5px 40px;
+  margin:0px 20px 0px 20px;
+
+
+}
+.Footer {
+  text-align:center;
+  background-color:#1F2937;
+  color: #F9FAF8;
+}
